@@ -1,2 +1,8 @@
 # Wireless_Communications
 Simulations on Python for the course "Fundamentals of Wireless Communications" at Instituto Balseiro
+
+Number 2:
+This practical work focuses on simulating a wireless channel, considers various parameters such as the carrier frequency (1 GHz), the distance between the transmitter and receiver (order of kilometers), the distance between clusters (order of hundreds of meters), the diameter of clusters (order of tens of meters), and the average distance between reflectors or scatterers (order of meters). The tasks include proposing three different bandwidths, analyzing the statistical models of Rayleigh and Rician channels, mapping the channel strength in a chosen geographic region, and studying the spectral characterization of the Doppler effect.
+
+Number 3:
+In this practical work, the focus is on emulating information transmission over a wireless channel using BPSK modulation. The provided "canal.mat" file contains a matrix representing the flat fading channel response for different points in a Cartesian geographical map. The tasks involve coherent maximum likelihood detection with AWGN, evaluating the Bit Error Rate (BER) for different Signal-to-Noise Ratio (SNR) values, and comparing the results with theoretical curves. Additionally, a communication scenario is presented where the receiver moves continuously, exploiting the Doppler effect for data transmission using BPSK with temporal diversity and interleaving. The BER is calculated with maximal ratio combining for different diversity branch numbers (L), considering different receiver velocities and comparing the results with theoretical curves.
